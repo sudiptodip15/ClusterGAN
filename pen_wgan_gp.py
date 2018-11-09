@@ -261,7 +261,7 @@ class WassersteinGAN(object):
 
     def _eval_cluster(self, latent_rep, labels_true, timestamp, val):
 
-        km = KMeans(n_clusters=self.num_classes, random_state=0).fit(latent_rep)
+        km = KMeans(n_clusters=max(self.num_classes, len(np.unique(labels_true))), random_state=0).fit(latent_rep)
         labels_pred = km.labels_
 
         purity = metric.compute_purity(labels_pred, labels_true)

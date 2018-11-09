@@ -263,7 +263,7 @@ class WassersteinGAN(object):
         map_labels = {0:0, 1:1, 2:2, 4:3, 6:4, 7:5, 8:6, 9:7}
         labels_true = np.array([map_labels[i] for i in labels_true])
 
-        km = KMeans(n_clusters=self.num_classes, random_state=0).fit(latent_rep)
+        km = KMeans(n_clusters=max(self.num_classes, len(np.unique(labels_true))), random_state=0).fit(latent_rep)
         labels_pred = km.labels_
 
         purity = metric.compute_purity(labels_pred, labels_true)
