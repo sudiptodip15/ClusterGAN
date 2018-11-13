@@ -11,7 +11,7 @@ The code has been tested with the following versions of packages.
 
 ## Datasets
 
-The datasets used in the paper can be downloaded from the Google Drive link(https://drive.google.com/open?id=1XnGkSamF5DiwnpHFG0OexmoqAwe27ucR).
+The datasets used in the paper can be downloaded from the Google Drive link (https://drive.google.com/open?id=1XnGkSamF5DiwnpHFG0OexmoqAwe27ucR).
 Unzip the folder so that the path is : ./ClusterGAN/data/<dataset_name>
 
 ## Training
@@ -29,6 +29,7 @@ $ python Image_ClusterGAN.py --data mnist --K 10 --dz 30 --beta_n 10 --beta_c 10
 ```
 
 Training the models for other datasets has a similar format.
+
 Fashion-10 : 
 ```bash
 $ python Image_ClusterGAN.py --data fashion --K 10 --dz 40 --beta_n 0 --beta_c 10 --train True 
@@ -57,6 +58,7 @@ Additionally, you can also download the pre-trained models from the Google drive
 
 Run the following code : 
 
+```bash
 $ python Image_ClusterGAN.py --data mnist --K 10 --dz 30 --beta_n 10 --beta_c 10 
 ```
 
