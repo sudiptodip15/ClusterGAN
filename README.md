@@ -1,7 +1,7 @@
 # ClusterGAN
 Latent space clustering in Generative Adversarial Network (GAN)
 
-Table shows the mean $\pm$ standard deviation of 10 runs of ClusterGAN for various datasets.
+Table shows the mean +- standard deviation of 10 runs of ClusterGAN for various datasets.
 
 |    Dataset    |           ACC       |         NMI         |           ARI         |
 |:-------------:|:-------------------:|:-------------------:|:---------------------:|
