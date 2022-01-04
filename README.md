@@ -79,6 +79,6 @@ Table shows the mean +- standard deviation of 10 runs of ClusterGAN (with the re
 
 ## Feedback
 
-Please feel free to provide any feedback about the code to sudipm@uw.edu.
+Please feel free to provide any feedback about the code to sudipto.ece.ju@gmail.com
 
 
