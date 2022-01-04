@@ -54,8 +54,6 @@ Provide the timestamp of best saved model to obtain the Test set clustering perf
 
 ## Pre-trained models
 
-Additionally, you can also download the pre-trained models from the Google drive link (https://drive.google.com/open?id=1l9Lwq0amAaA3qHzNCiw7BrivSAFoP0em). Unzip the file in ./ClusterGAN. It should lead to the folder ./ClusterGAN/pre_trained_models
-
 Run the following code : 
 
 ```bash
